@@ -11,8 +11,7 @@ class OldStyle:
     return ()
 
   def __getnewargs__(self):
-    print 'OldStyle.__getnewargs__'
-    return ()
+    raise RuntimeError()  # Never called.
 
   def __getstate__(self):
     print 'OldStyle.__getstate__'
@@ -28,7 +27,7 @@ class NewStyle(object):
     print 'NewStyle.__init__'
 
   def __getinitargs__(self):
-    raise RuntimeError  # This will never be called.
+    raise RuntimeError()  # Never called.
 
   def __getnewargs__(self):
     print 'NewStyle.__getnewargs__'
@@ -43,7 +42,7 @@ def NewStyle__setstate__(self, state):
 
 
 # You can use "injection" to add the getstate/setstate methods
-# to Python C API objects. Works for old a new style objects.
+# to Python C API objects. Works for old and new style objects.
 NewStyle.__getstate__ = NewStyle__getstate__
 NewStyle.__setstate__ = NewStyle__setstate__
 
