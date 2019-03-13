@@ -1,0 +1,18 @@
+$ export MYCT=1
+$ g++ -o ctrtsel compile_time_runtime_selection_from_env.cc -DMYCT=$MYCT
+$ export MYRT=
+$ ./ctrtsel
+fun1
+MYRT value from environment: ""
+
+$ export MYRT=hello
+$ ./ctrtsel
+fun1
+MYRT value from environment: "hello"
+
+$ export MYCT=2
+$ g++ -o ctrtsel compile_time_runtime_selection_from_env.cc -DMYCT=$MYCT
+$ ./ctrtsel
+fun2
+MYRT value from environment: "hello"
+
