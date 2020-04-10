@@ -1,0 +1,1 @@
+cc -std=c99 -I/usr/include/python2.7 -shared -fPIC -O2 noddy.c -o noddy.so
