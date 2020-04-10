@@ -1,1 +1,3 @@
-cc -std=c99 -I/usr/include/python2.7 -shared -fPIC -O2 noddy.c -o noddy.so
+cc -std=c99 -I/usr/include/python2.7 -shared -fPIC -O2 noddy_py2.c -o noddy.so && python2 noddy_main.py
+cc -std=c99 -I/usr/include/python3.7 -shared -fPIC -O2 noddy_py3.c -o noddy.so && python3 noddy_main.py
+rm noddy.so
