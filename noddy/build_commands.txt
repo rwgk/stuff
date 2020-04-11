@@ -1,3 +1,9 @@
 cc -std=c99 -I/usr/include/python2.7 -shared -fPIC -O2 noddy_py2.c -o noddy.so && python2 noddy_main.py
 cc -std=c99 -I/usr/include/python3.7 -shared -fPIC -O2 noddy_py3.c -o noddy.so && python3 noddy_main.py
 rm noddy.so
+
+# build noddy_py2.c
+valgrind --tool=memcheck --leak-check=full --show-reachable=yes --error-limit=no --gen-suppressions=all --log-file=raw.log /usr/bin/python2.7 noddy_main.py
+cat raw.log | parse_valgrind_suppressions.sh > valgrind-python27.supp
+# build noddy_heaptype_py2.c
+valgrind --tool=memcheck --leak-check=full --suppressions=valgrind-python27.supp /usr/bin/python2.7 noddy_main.py
