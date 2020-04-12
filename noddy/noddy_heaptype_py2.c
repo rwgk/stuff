@@ -31,6 +31,7 @@ initnoddy(void)
     nt->tp_name = "noddy.Noddy";
     nt->tp_basicsize = sizeof(noddy_NoddyObject);
     nt->tp_flags = Py_TPFLAGS_DEFAULT |
+                   Py_TPFLAGS_CHECKTYPES |
                    Py_TPFLAGS_BASETYPE |
                    Py_TPFLAGS_HEAPTYPE;
     nt->tp_doc = "Noddy objects";
