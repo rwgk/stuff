@@ -1,6 +1,8 @@
-cc -std=c99 -I/usr/include/python2.7 -shared -fPIC -O2 noddy_py2.c -o noddy.so && python2 noddy_main.py
-cc -std=c99 -I/usr/include/python3.7 -shared -fPIC -O2 noddy_py3.c -o noddy.so && python3 noddy_main.py
-rm noddy.so
+cc -std=c99 -I/usr/include/python2.7 -shared -fPIC -g -O0 noddy_py2.c -o noddy.so && python2 noddy_main.py
+cc -std=c99 -I/usr/include/python3.7 -shared -fPIC -g -O0 noddy_py3.c -o noddy.so && python3 noddy_main.py
+
+cc -std=c99 -I/usr/include/python2.7 -L/usr/lib/python2.7/config-x86_64-linux-gnu -g -O0 embedded_noddy_main_run.c -o embedded_noddy_main_run -lpython2.7
+cc -std=c99 -I/usr/include/python3.7 -L/usr/lib/python3.7/config-3.7m-x86_64-linux-gnu -g -O0 embedded_noddy_main_run.c -o embedded_noddy_main_run -lpython3.7
 
 # build noddy_py2.c
 valgrind --tool=memcheck --leak-check=full --show-reachable=yes --error-limit=no --gen-suppressions=all --log-file=raw.log /usr/bin/python2.7 noddy_main.py
