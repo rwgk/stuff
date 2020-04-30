@@ -37,6 +37,6 @@ initnoddy(void)
     nt->tp_doc = "Noddy objects";
     if (PyType_Ready(nt) < 0)
         return;
-
+    Py_INCREF(nt);  /* For PyModule_AddObject to steal. */
     PyModule_AddObject(m, "Noddy", (PyObject *) nt);
 }
