@@ -82,6 +82,17 @@ void obj1_reset() {
   // Working again based on the shared_ptr that was created after obj1 was
   // reset:
   obj2->shared_from_this();
+  //obj3.reset();
+  obj2->weak_from_this().reset();
+  got_bad_weak_ptr = false;
+  try {
+    obj2->shared_from_this();
+  } catch (const std::bad_weak_ptr&) {
+    got_bad_weak_ptr = true;
+  }
+  std::cout << "got_bad_weak_ptr: " << got_bad_weak_ptr << std::endl;
+  //std::weak_ptr<Atype> obj2_wp(obj2);
+  //obj2->weak_from_this().swap(obj2_wp);
 }
 /* Expected output:
 obj1_reset()
