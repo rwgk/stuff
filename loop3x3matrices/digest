@@ -1,0 +1,26 @@
+#! /bin/csh -f
+
+set seq = (`grep SumRtypeCounters $1 | cut -d= -f3`)
+echo 'SumRtypeCounters'
+echo $seq | sed 's/ /, /g'
+
+foreach N (1 2 3 4 6)
+  set seq = (`grep "^R:R=[1-9][0-9]* $N " $1 | cut -d' ' -f3`)
+  echo "N=$N"
+  echo $seq | sed 's/ /, /g'
+  set seq = (`grep "^R:R=[1-9][0-9]* -$N " $1 | cut -d' ' -f3`)
+  echo "N=-$N"
+  echo $seq | sed 's/ /, /g'
+end
+
+set seq = (`grep SumOrderCounters $1 | cut -d= -f3`)
+echo 'SumOrderCounters'
+echo $seq | sed 's/ /, /g'
+
+foreach N (1 2 3 4 6)
+  set seq = (`grep "^O:R=[1-9][0-9]* $N " $1 | cut -d' ' -f3`)
+  echo "N=$N"
+  echo $seq | sed 's/ /, /g'
+end
+
+exit 0

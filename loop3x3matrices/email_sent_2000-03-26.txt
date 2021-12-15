@@ -1,0 +1,63 @@
+%I A054461
+%S A054461 1584,13056,57744,133440,307632,519888,990288,1436208,2108832,3015648
+%N A054461 Number of 3x3 integer matrices with elements in the range [-n,n] which generate a group of finite order under binary matrix multiplication.
+%O A054461 1,1
+%K A054461 nonn
+%A A054461 Ralf W. Grosse-Kunstleve (rwgk@cci.lbl.gov)
+%Y A054461 A054461(n) = 2*(1+A054462(n)+A054463(n)+A054464(n)+A054465(n)).
+
+%I A054462
+%S A054462 81,321,825,1689,2601,4185,5529,8145,10401,13137
+%N A054462 Number of 3x3 integer matrices with elements in the range [-n,n] which represent a two-fold rotation. Also the sequence for the corresponding two-fold rotoinversions.
+%O A054462 1,1
+%K A054462 nonn
+%A A054462 Ralf W. Grosse-Kunstleve (rwgk@cci.lbl.gov)
+%Y A054462 Cf. A054461.
+
+%I A054463
+%S A054463 308,1916,9572,20732,43148,73052,155156,219716,331892,440036
+%N A054463 Number of 3x3 integer matrices with elements in the range [-n,n] which represent a three-fold rotation. Also the sequence for the corresponding three-fold rotoinversions.
+%O A054463 1,1
+%K A054463 nonn
+%A A054463 Ralf W. Grosse-Kunstleve (rwgk@cci.lbl.gov)
+%Y A054463 Cf. A054461.
+
+%I A054464
+%S A054464 174,2694,8814,23310,64782,105678,171006,259446,368334,599022
+%N A054464 Number of 3x3 integer matrices with elements in the range [-n,n] which represent a four-fold rotation. Also the sequence for the corresponding four-fold rotoinversions.
+%O A054464 1,1
+%K A054464 nonn
+%A A054464 Ralf W. Grosse-Kunstleve (rwgk@cci.lbl.gov)
+%Y A054464 Cf. A054461.
+
+%I A054465
+%S A054465 228,1596,9660,20988,43284,77028,163452,230796,343788,455628
+%N A054465 Number of 3x3 integer matrices with elements in the range [-n,n] which represent a six-fold rotation. Also the sequence for the corresponding six-fold rotoinversions.
+%O A054465 1,1
+%K A054465 nonn
+%A A054465 Ralf W. Grosse-Kunstleve (rwgk@cci.lbl.gov)
+%Y A054465 Cf. A054461.
+
+%I A054466
+%S A054466 163,643,1651,3379,5203,8371,11059,16291,20803,26275
+%N A054466 Number of 3x3 integer matrices with elements in the range [-n,n] which generate a group of order two under binary matrix multiplication.
+%O A054466 1,1
+%K A054466 nonn
+%A A054466 Ralf W. Grosse-Kunstleve (rwgk@cci.lbl.gov)
+%Y A054466 A054466(n) = 1+2*A054462(n).
+
+%I A054467
+%S A054467 348,5388,17628,46620,129564,211356,342012,518892,736668,1198044
+%N A054467 Number of 3x3 integer matrices with elements in the range [-n,n] which generate a group of order four under binary matrix multiplication.
+%O A054467 1,1
+%K A054467 nonn
+%A A054467 Ralf W. Grosse-Kunstleve (rwgk@cci.lbl.gov)
+%Y A054467 A054467(n) = 2*A054464(n).
+
+%I A054468
+%S A054468 764,5108,28892,62708,129716,227108,482060,681308,1019468,1351292
+%N A054468 Number of 3x3 integer matrices with elements in the range [-n,n] which generate a group of order six under binary matrix multiplication.
+%O A054468 1,1
+%K A054468 nonn
+%A A054468 Ralf W. Grosse-Kunstleve (rwgk@cci.lbl.gov)
+%Y A054468 A054468(n) = A054463(n)+2*A054465(n).

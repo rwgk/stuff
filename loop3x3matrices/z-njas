@@ -1,0 +1,56 @@
+~c rwgk
+~s error
+When working on the other sequences I found out that the one from
+yesterday has the wrong explanation. The correct one would be:
+
+Number of 3x3 integer matrices with elements in the range [-N,N],
+determinant +1 or -1, and trace in the range [-3,3].
+
+I do not believe this is very interesting and I think it would be best
+not to replace the explanation but the sequence itself. Please do not
+add my previously submitted sequence to your database.
+
+My error is actually due to two mistakes which are very convoluted to
+explain. No excuse. I am really sorry and very embarrassed.
+
+My error is partially due to the fact that I misused a bigger program
+to do the computation. To make sure that I get it right this time
+around, I stripped down the code to force myself to know exactly what
+subroutines I am using and what they are doing. I also put in a few
+extra checks. 
+
+The results up to seven terms are appended. I will use the web form
+once I have ten terms and I have reassured myself that all the numbers
+are correct and consistent. It will take about a day of CPU time to
+compute the ten terms.
+
+Ralf
+
+
+
+Number of 3x3 integer matrices with elements in the range [-N,N] which
+generate a group of finite order under binary matrix multiplication.
+A0 = 1584, 13056, 57744, 133440, 307632, 519888, 990288
+
+Number of 3x3 integer matrices with elements in the range [-N,N] which
+represent a two-fold rotation. Also the sequence for the corresponding
+two-fold rotoinversions.
+A2 = 81, 321, 825, 1689, 2601, 4185, 5529
+
+Number of 3x3 integer matrices with elements in the range [-N,N] which
+represent a three-fold rotation. Also the sequence for the corresponding
+three-fold rotoinversions.
+A3 = 308, 1916, 9572, 20732, 43148, 73052, 155156
+
+Number of 3x3 integer matrices with elements in the range [-N,N] which
+represent a four-fold rotation. Also the sequence for the corresponding
+four-fold rotoinversions.
+A4 = 174, 2694, 8814, 23310, 64782, 105678, 171006
+
+Number of 3x3 integer matrices with elements in the range [-N,N] which
+represent a six-fold rotation. Also the sequence for the corresponding
+six-fold rotoinversions.
+A6 = 228, 1596, 9660, 20988, 43284, 77028, 163452
+
+
+Relation of sequences: A0 = 2 * (1 + A2 + A3 + A4 + A6)
