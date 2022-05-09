@@ -1,18 +1,18 @@
 namespace engine {
 
-#ifdef USE_TRANSLATION_UNIT_TAG
+#ifdef USE_UNIQUE_TO_TRANSLATION_UNIT
 namespace {
-struct translation_unit_tag {};
+struct unique_to_translation_unit {};
 }  // namespace
 
-template <typename T, typename = translation_unit_tag>
+template <typename T, typename = unique_to_translation_unit>
 #else
 template <typename T>
 #endif
 struct specs;
 
-#ifdef USE_TRANSLATION_UNIT_TAG
-template <typename T, typename = translation_unit_tag>
+#ifdef USE_UNIQUE_TO_TRANSLATION_UNIT
+template <typename T, typename = unique_to_translation_unit>
 #else
 template <typename T>
 #endif
