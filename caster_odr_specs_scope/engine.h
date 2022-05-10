@@ -24,4 +24,16 @@ int power() {
   return make_specs<T, typename specs_scope<T, U>::select>().power();
 }
 
+template <typename T>
+int power_less() { // Violates the ODR.
+  return make_specs<
+             T, typename specs_scope<T, unique_to_translation_unit>::select>()
+      .power();
+}
+
+template <typename T>
+int more_power_less() { // This, too, transitively.
+  return power_less<T>();
+}
+
 }  // namespace engine
