@@ -5,7 +5,7 @@ namespace vehicles {
 struct vehicle {};
 
 struct truck_specs {
-  static constexpr unsigned unique_id = 30;
+  static constexpr engine::tu_local_unsigned unique_id = 30;
   int power() const { return 300; }
 };
 

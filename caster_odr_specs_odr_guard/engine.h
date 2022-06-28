@@ -6,9 +6,16 @@
 
 namespace engine {
 
+namespace {
+struct tu_local_unsigned {
+  unsigned value;
+  constexpr tu_local_unsigned(unsigned v) : value(v) {}
+};
+}  // namespace
+
 template <typename T>
 struct specs {
-  static constexpr unsigned unique_id = 0;
+  static constexpr tu_local_unsigned unique_id = 0;
   int power() const { return 0; }
 };
 
@@ -16,13 +23,17 @@ namespace {
 
 template <typename T>
 struct specs_odr_guard : specs<T> {
-  static int translation_unit_local;
+  static volatile tu_local_unsigned translation_unit_local;
+  specs_odr_guard() {
+    if (translation_unit_local.value) {
+    }
+  }
 };
 
 template <typename T>
-int specs_odr_guard<T>::translation_unit_local = []() {
+volatile tu_local_unsigned specs_odr_guard<T>::translation_unit_local = []() {
   fprintf(stdout, "MAKE_SPECS_ODR_GUARD %s %u\n", typeid(T).name(),
-          specs<T>::unique_id);
+          specs<T>::unique_id.value);
   fflush(stdout);
   return 0;
 }();
@@ -34,8 +45,6 @@ using make_specs = specs_odr_guard<T>;
 
 template <typename T>
 int power() {
-  if (make_specs<T>::translation_unit_local) {
-  }
   return make_specs<T>().power();
 }
 
