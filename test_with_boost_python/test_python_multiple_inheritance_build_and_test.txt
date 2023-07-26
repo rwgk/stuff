@@ -1,0 +1,47 @@
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.11.so (found version "3.11.4") 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: python 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build
+/usr/bin/cmake -S/usr/local/google/home/rwgk/clone/stuff/test_with_boost_python -B/usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build/CMakeFiles /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build//CMakeFiles/progress.marks
+make  -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build'
+make  -f CMakeFiles/test_python_multiple_inheritance.dir/build.make CMakeFiles/test_python_multiple_inheritance.dir/depend
+make[2]: Entering directory '/usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build'
+cd /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build/CMakeFiles/test_python_multiple_inheritance.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build'
+make  -f CMakeFiles/test_python_multiple_inheritance.dir/build.make CMakeFiles/test_python_multiple_inheritance.dir/build
+make[2]: Entering directory '/usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build'
+[ 50%] Building CXX object CMakeFiles/test_python_multiple_inheritance.dir/test_python_multiple_inheritance.cpp.o
+/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_PYTHON_DYN_LINK -Dtest_python_multiple_inheritance_EXPORTS -I/usr/include/python3.11 -fPIC -MD -MT CMakeFiles/test_python_multiple_inheritance.dir/test_python_multiple_inheritance.cpp.o -MF CMakeFiles/test_python_multiple_inheritance.dir/test_python_multiple_inheritance.cpp.o.d -o CMakeFiles/test_python_multiple_inheritance.dir/test_python_multiple_inheritance.cpp.o -c /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/test_python_multiple_inheritance.cpp
+[100%] Linking CXX shared module test_python_multiple_inheritance.so
+/usr/bin/cmake -E cmake_link_script CMakeFiles/test_python_multiple_inheritance.dir/link.txt --verbose=1
+/usr/bin/c++ -fPIC -shared  -o test_python_multiple_inheritance.so CMakeFiles/test_python_multiple_inheritance.dir/test_python_multiple_inheritance.cpp.o  /usr/lib/x86_64-linux-gnu/libboost_python311.so.1.74.0 /usr/lib/x86_64-linux-gnu/libpython3.11.so 
+make[2]: Leaving directory '/usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build'
+[100%] Built target test_python_multiple_inheritance
+make[1]: Leaving directory '/usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build'
+/usr/bin/cmake -E cmake_progress_start /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build/CMakeFiles 0
+============================= test session starts ==============================
+platform linux -- Python 3.11.4, pytest-7.2.1, pluggy-1.0.0+repack -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python
+plugins: xdist-3.3.1
+collecting ... collected 2 items
+
+test_python_multiple_inheritance.py::test_PC PASSED                      [ 50%]
+test_python_multiple_inheritance.py::test_PPCCInit PASSED                [100%]
+
+============================== 2 passed in 0.02s ===============================

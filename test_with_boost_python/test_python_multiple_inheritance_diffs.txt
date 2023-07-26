@@ -1,0 +1,58 @@
+https://github.com/pybind/pybind11/pull/4762/commits/bdd938ad7e0e52eb749e3e58555328f6f595d815
+
+--- /usr/local/google/home/rwgk/forked/pybind11/tests/test_python_multiple_inheritance.cpp	2023-07-25 20:59:56.075087212 -0700
++++ ./test_python_multiple_inheritance.cpp	2023-07-25 22:03:08.582798952 -0700
+@@ -1,4 +1,4 @@
+-#include "pybind11_tests.h"
++#include <boost/python.hpp>
+ 
+ namespace test_python_multiple_inheritance {
+ 
+@@ -28,15 +28,16 @@
+ 
+ } // namespace test_python_multiple_inheritance
+ 
+-TEST_SUBMODULE(python_multiple_inheritance, m) {
++BOOST_PYTHON_MODULE(test_python_multiple_inheritance) {
+     using namespace test_python_multiple_inheritance;
++    namespace py = boost::python;
+ 
+-    py::class_<CppBase>(m, "CppBase")
++    py::class_<CppBase>("CppBase", py::no_init)
+         .def(py::init<int>())
+         .def("get_base_value", &CppBase::get_base_value)
+         .def("reset_base_value", &CppBase::reset_base_value);
+ 
+-    py::class_<CppDrvd, CppBase>(m, "CppDrvd")
++    py::class_<CppDrvd, py::bases<CppBase>>("CppDrvd", py::no_init)
+         .def(py::init<int>())
+         .def("get_drvd_value", &CppDrvd::get_drvd_value)
+         .def("reset_drvd_value", &CppDrvd::reset_drvd_value)
+--- /usr/local/google/home/rwgk/forked/pybind11/tests/test_python_multiple_inheritance.py	2023-07-25 16:09:12.790920850 -0700
++++ ./test_python_multiple_inheritance.py	2023-07-25 22:33:08.596640849 -0700
+@@ -1,7 +1,7 @@
+ # Adapted from:
+ # https://github.com/google/clif/blob/5718e4d0807fd3b6a8187dde140069120b81ecef/clif/testing/python/python_multiple_inheritance_test.py
+ 
+-from pybind11_tests import python_multiple_inheritance as m
++from build import test_python_multiple_inheritance as m
+ 
+ 
+ class PC(m.CppBase):
+@@ -27,13 +27,11 @@
+     d.reset_drvd_value(55)
+     assert d.get_drvd_value() == 55
+ 
+-    # CppBase is initialized and used when CppBase methods are called, but
+-    # CppDrvd is used when CppDrvd methods are called.
+-    assert d.get_base_value() == 11
++    assert d.get_base_value() == 12
+     assert d.get_base_value_from_drvd() == 12
+     d.reset_base_value(20)
+     assert d.get_base_value() == 20
+-    assert d.get_base_value_from_drvd() == 12
++    assert d.get_base_value_from_drvd() == 20
+     d.reset_base_value_from_drvd(30)
+-    assert d.get_base_value() == 20
++    assert d.get_base_value() == 30
+     assert d.get_base_value_from_drvd() == 30
