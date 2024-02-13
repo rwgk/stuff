@@ -1,0 +1,170 @@
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.11.so (found version "3.11.6") 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: python 
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build
+/usr/bin/cmake -S/usr/local/google/home/rwgk/clone/stuff/test_with_boost_python -B/usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build/CMakeFiles /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build//CMakeFiles/progress.marks
+make  -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build'
+make  -f CMakeFiles/test_pickle_simple_callable.dir/build.make CMakeFiles/test_pickle_simple_callable.dir/depend
+make[2]: Entering directory '/usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build'
+cd /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build/CMakeFiles/test_pickle_simple_callable.dir/DependInfo.cmake "--color="
+make[2]: Leaving directory '/usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build'
+make  -f CMakeFiles/test_pickle_simple_callable.dir/build.make CMakeFiles/test_pickle_simple_callable.dir/build
+make[2]: Entering directory '/usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build'
+[ 50%] Building CXX object CMakeFiles/test_pickle_simple_callable.dir/test_pickle_simple_callable.cpp.o
+/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_PYTHON_DYN_LINK -Dtest_pickle_simple_callable_EXPORTS -I/usr/include/python3.11 -fPIC -MD -MT CMakeFiles/test_pickle_simple_callable.dir/test_pickle_simple_callable.cpp.o -MF CMakeFiles/test_pickle_simple_callable.dir/test_pickle_simple_callable.cpp.o.d -o CMakeFiles/test_pickle_simple_callable.dir/test_pickle_simple_callable.cpp.o -c /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/test_pickle_simple_callable.cpp
+[100%] Linking CXX shared module test_pickle_simple_callable.so
+/usr/bin/cmake -E cmake_link_script CMakeFiles/test_pickle_simple_callable.dir/link.txt --verbose=1
+/usr/bin/c++ -fPIC -shared  -o test_pickle_simple_callable.so CMakeFiles/test_pickle_simple_callable.dir/test_pickle_simple_callable.cpp.o  /usr/lib/x86_64-linux-gnu/libboost_python311.so.1.74.0 /usr/lib/x86_64-linux-gnu/libpython3.11.so 
+make[2]: Leaving directory '/usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build'
+[100%] Built target test_pickle_simple_callable
+make[1]: Leaving directory '/usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build'
+/usr/bin/cmake -E cmake_progress_start /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python/build/CMakeFiles 0
+============================= test session starts ==============================
+platform linux -- Python 3.11.6, pytest-7.4.3, pluggy-1.3.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /usr/local/google/home/rwgk/clone/stuff/test_with_boost_python
+plugins: xdist-3.3.1
+collecting ... collected 7 items
+
+test_pickle_simple_callable.py::test_assumptions PASSED                  [ 14%]
+test_pickle_simple_callable.py::test_pickle_simple_callable[0] FAILED    [ 28%]
+test_pickle_simple_callable.py::test_pickle_simple_callable[1] FAILED    [ 42%]
+test_pickle_simple_callable.py::test_pickle_simple_callable[2] FAILED    [ 57%]
+test_pickle_simple_callable.py::test_pickle_simple_callable[3] FAILED    [ 71%]
+test_pickle_simple_callable.py::test_pickle_simple_callable[4] FAILED    [ 85%]
+test_pickle_simple_callable.py::test_pickle_simple_callable[5] FAILED    [100%]
+
+=================================== FAILURES ===================================
+________________________ test_pickle_simple_callable[0] ________________________
+
+protocol = 0
+
+    @pytest.mark.parametrize("protocol", range(pickle.HIGHEST_PROTOCOL + 1))
+    def test_pickle_simple_callable(protocol):
+        assert m.simple_callable() == 723
+>       serialized = pickle.dumps(m.simple_callable, protocol=protocol)
+
+test_pickle_simple_callable.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <Boost.Python.function object at 0x2091970>, proto = 0
+
+    def _reduce_ex(self, proto):
+        assert proto < 2
+        cls = self.__class__
+        for base in cls.__mro__:
+            if hasattr(base, '__flags__') and not base.__flags__ & _HEAPTYPE:
+                break
+            new = base.__new__
+            if isinstance(new, _new_type) and new.__self__ is base:
+                break
+        else:
+            base = object # not really reachable
+        if base is object:
+            state = None
+        else:
+            if base is cls:
+>               raise TypeError(f"cannot pickle {cls.__name__!r} object")
+E               TypeError: cannot pickle 'builtin_function_or_method' object
+
+/usr/lib/python3.11/copyreg.py:76: TypeError
+________________________ test_pickle_simple_callable[1] ________________________
+
+protocol = 1
+
+    @pytest.mark.parametrize("protocol", range(pickle.HIGHEST_PROTOCOL + 1))
+    def test_pickle_simple_callable(protocol):
+        assert m.simple_callable() == 723
+>       serialized = pickle.dumps(m.simple_callable, protocol=protocol)
+
+test_pickle_simple_callable.py:15: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <Boost.Python.function object at 0x2091970>, proto = 1
+
+    def _reduce_ex(self, proto):
+        assert proto < 2
+        cls = self.__class__
+        for base in cls.__mro__:
+            if hasattr(base, '__flags__') and not base.__flags__ & _HEAPTYPE:
+                break
+            new = base.__new__
+            if isinstance(new, _new_type) and new.__self__ is base:
+                break
+        else:
+            base = object # not really reachable
+        if base is object:
+            state = None
+        else:
+            if base is cls:
+>               raise TypeError(f"cannot pickle {cls.__name__!r} object")
+E               TypeError: cannot pickle 'builtin_function_or_method' object
+
+/usr/lib/python3.11/copyreg.py:76: TypeError
+________________________ test_pickle_simple_callable[2] ________________________
+
+protocol = 2
+
+    @pytest.mark.parametrize("protocol", range(pickle.HIGHEST_PROTOCOL + 1))
+    def test_pickle_simple_callable(protocol):
+        assert m.simple_callable() == 723
+>       serialized = pickle.dumps(m.simple_callable, protocol=protocol)
+E       TypeError: cannot pickle 'Boost.Python.function' object
+
+test_pickle_simple_callable.py:15: TypeError
+________________________ test_pickle_simple_callable[3] ________________________
+
+protocol = 3
+
+    @pytest.mark.parametrize("protocol", range(pickle.HIGHEST_PROTOCOL + 1))
+    def test_pickle_simple_callable(protocol):
+        assert m.simple_callable() == 723
+>       serialized = pickle.dumps(m.simple_callable, protocol=protocol)
+E       TypeError: cannot pickle 'Boost.Python.function' object
+
+test_pickle_simple_callable.py:15: TypeError
+________________________ test_pickle_simple_callable[4] ________________________
+
+protocol = 4
+
+    @pytest.mark.parametrize("protocol", range(pickle.HIGHEST_PROTOCOL + 1))
+    def test_pickle_simple_callable(protocol):
+        assert m.simple_callable() == 723
+>       serialized = pickle.dumps(m.simple_callable, protocol=protocol)
+E       TypeError: cannot pickle 'Boost.Python.function' object
+
+test_pickle_simple_callable.py:15: TypeError
+________________________ test_pickle_simple_callable[5] ________________________
+
+protocol = 5
+
+    @pytest.mark.parametrize("protocol", range(pickle.HIGHEST_PROTOCOL + 1))
+    def test_pickle_simple_callable(protocol):
+        assert m.simple_callable() == 723
+>       serialized = pickle.dumps(m.simple_callable, protocol=protocol)
+E       TypeError: cannot pickle 'Boost.Python.function' object
+
+test_pickle_simple_callable.py:15: TypeError
+=========================== short test summary info ============================
+FAILED test_pickle_simple_callable.py::test_pickle_simple_callable[0] - TypeE...
+FAILED test_pickle_simple_callable.py::test_pickle_simple_callable[1] - TypeE...
+FAILED test_pickle_simple_callable.py::test_pickle_simple_callable[2] - TypeE...
+FAILED test_pickle_simple_callable.py::test_pickle_simple_callable[3] - TypeE...
+FAILED test_pickle_simple_callable.py::test_pickle_simple_callable[4] - TypeE...
+FAILED test_pickle_simple_callable.py::test_pickle_simple_callable[5] - TypeE...
+========================= 6 failed, 1 passed in 0.03s ==========================
