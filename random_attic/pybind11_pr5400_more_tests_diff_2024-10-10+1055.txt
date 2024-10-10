@@ -1,0 +1,85 @@
+diff --git a/tests/test_pytypes.cpp b/tests/test_pytypes.cpp
+index 19f65ce7..597a2d8b 100644
+--- a/tests/test_pytypes.cpp
++++ b/tests/test_pytypes.cpp
+@@ -150,6 +150,56 @@ TEST_SUBMODULE(pytypes, m) {
+     m.def("get_iterator", [] { return py::iterator(); });
+     // test_iterable
+     m.def("get_iterable", [] { return py::iterable(); });
++    m.def("get_first_item_from_iterable", [](const py::iterable &iter) {
++        // This tests the postfix increment operator
++        py::iterator it = iter.begin();
++        py::iterator it2 = it++;
++        return *it2;
++    });
++    m.def("get_second_item_from_iterable", [](const py::iterable &iter) {
++        // This tests the prefix increment operator
++        py::iterator it = iter.begin();
++        ++it;
++        return *it;
++    });
++    m.def("iterable_to_list", [](const py::iterable &iter) {
++        py::list res;
++        for (auto it : iter) {
++            res.append(*it);
++        }
++        return res;
++    });
++    m.def("iterable_alt_deref_incr", [](const py::iterable &iter) {
++        py::list res;
++        py::iterator it = iter.begin();
++        res.append(*it);
++        it++;
++        res.append(*it);
++        it++;
++        res.append(*it);
++        it++;
++        res.append(it == iter.end());
++        return res;
++    });
++    m.def("iterable_deref_postfix_incr", [](const py::iterable &iter) {
++        py::list res;
++        py::iterator it = iter.begin();
++        res.append(*it++);
++        res.append(*it++);
++        res.append(*it++);
++        res.append(it == iter.end());
++        return res;
++    });
++    m.def("iterable_deref_prefix_incr", [](const py::iterable &iter) {
++        py::list res;
++        py::iterator it = iter.begin();
++        res.append(*it);
++        res.append(*(++it));
++        res.append(*(++it));
++        ++it;
++        res.append(it == iter.end());
++        return res;
++    });
+     m.def("get_frozenset_from_iterable",
+           [](const py::iterable &iter) { return py::frozenset(iter); });
+     m.def("get_list_from_iterable", [](const py::iterable &iter) { return py::list(iter); });
+diff --git a/tests/test_pytypes.py b/tests/test_pytypes.py
+index 39d0b619..c78d0642 100644
+--- a/tests/test_pytypes.py
++++ b/tests/test_pytypes.py
+@@ -52,6 +52,19 @@ def test_from_iterable(pytype, from_iter_func):
+ 
+ def test_iterable(doc):
+     assert doc(m.get_iterable) == "get_iterable() -> Iterable"
++    lins = [1, 2, 3]
++    i = m.get_first_item_from_iterable(lins)
++    assert i == 2
++    i = m.get_second_item_from_iterable(lins)
++    assert i == 1
++    res = m.iterable_to_list(lins)
++    assert res == lins
++    res = m.iterable_alt_deref_incr(lins)
++    assert res == [1, 2, 3, True]
++    res = m.iterable_deref_postfix_incr(lins)
++    assert res == [2, 1, 3, True]
++    res = m.iterable_deref_prefix_incr(lins)
++    assert res == [1, 2, 3, True]
+ 
+ 
+ def test_float(doc):
