@@ -2,12 +2,13 @@ import weakref
 
 
 class ShopKeeper:
-    class _Members:
+    class _MembersNeededForFinalize:
         __slots__ = ("serno", "exception_harness")
 
-        def __init__(self, serno, exception_harness):
+        def __init__(self, shop_keeper_obj, serno, exception_harness):
             self.serno = serno
             self.exception_harness = exception_harness
+            weakref.finalize(shop_keeper_obj, self.close)
 
         def close(self):
             if self.exception_harness:
@@ -18,11 +19,12 @@ class ShopKeeper:
             else:
                 print("        Close", self.serno, 1 / (self.serno - 1))
 
-    __slots__ = ("__weakref__", "_members")
+    __slots__ = ("__weakref__", "_mnff")
 
     def __init__(self, serno, exception_harness):
-        self._members = ShopKeeper._Members(serno, exception_harness)
-        weakref.finalize(self, self._members.close)
+        self._mnff = ShopKeeper._MembersNeededForFinalize(
+            self, serno, exception_harness
+        )
 
 
 def short_term_shop_keeper(serno, exception_harness):
