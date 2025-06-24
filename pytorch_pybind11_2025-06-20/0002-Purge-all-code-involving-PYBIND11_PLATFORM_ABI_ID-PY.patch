@@ -1,0 +1,125 @@
+From b841a3ce4ef3931f1db8c13c63b327c8fa5c8748 Mon Sep 17 00:00:00 2001
+From: "Ralf W. Grosse-Kunstleve" <rgrossekunst@nvidia.com>
+Date: Thu, 19 Jun 2025 13:05:39 -0700
+Subject: [PATCH 2/5] Purge all code involving: PYBIND11_PLATFORM_ABI_ID
+ PYBIND11_COMPILER_TYPE PYBIND11_STDLIB PYBIND11_BUILD_ABI PYBIND11_BUILD_TYPE
+
+---
+ .ci/pytorch/check_binary.sh  | 21 ---------------------
+ torch/csrc/Module.cpp        | 24 ------------------------
+ torch/utils/cpp_extension.py | 28 +---------------------------
+ 3 files changed, 1 insertion(+), 72 deletions(-)
+
+diff --git a/.ci/pytorch/check_binary.sh b/.ci/pytorch/check_binary.sh
+index 78baf6a0761..0f632f8006c 100755
+--- a/.ci/pytorch/check_binary.sh
++++ b/.ci/pytorch/check_binary.sh
+@@ -300,24 +300,3 @@ except RuntimeError as e:
+     exit 1
+   fi
+ fi
+-
+-###############################################################################
+-# Check for C++ ABI compatibility to GCC-11 - GCC 13
+-###############################################################################
+-if [[ "$(uname)" == 'Linux' &&  "$PACKAGE_TYPE" == 'manywheel' ]]; then
+-  pushd /tmp
+-  # Per https://gcc.gnu.org/onlinedocs/gcc/C_002b_002b-Dialect-Options.html
+-  # gcc-11 is ABI16, gcc-13 is ABI18, gcc-14 is ABI19
+-  # gcc 11 - CUDA 11.8, xpu, rocm
+-  # gcc 13 - CUDA 12.6, 12.8 and cpu
+-  # Please see issue for reference: https://github.com/pytorch/pytorch/issues/152426
+-  if [[ "$(uname -m)" == "s390x" ]]; then
+-    cxx_abi="19"
+-  elif [[ "$DESIRED_CUDA" != 'xpu' && "$DESIRED_CUDA" != 'rocm'* ]]; then
+-    cxx_abi="18"
+-  else
+-    cxx_abi="16"
+-  fi
+-  python -c "import torch; exit(0 if torch._C._PYBIND11_BUILD_ABI == '_cxxabi10${cxx_abi}' else 1)"
+-  popd
+-fi
+diff --git a/torch/csrc/Module.cpp b/torch/csrc/Module.cpp
+index 34ae76dd2ef..58d4f59914f 100644
+--- a/torch/csrc/Module.cpp
++++ b/torch/csrc/Module.cpp
+@@ -2427,30 +2427,6 @@ Call this whenever a new thread is created in order to propagate values from
+ 
+   ASSERT_TRUE(set_module_attr("_GLIBCXX_USE_CXX11_ABI", Py_True));
+ 
+-// See note [Pybind11 ABI constants]
+-#define SET_STR_DEFINE(name) \
+-  ASSERT_TRUE(set_module_attr("_" #name, THPUtils_packString(name)))
+-
+-#ifdef PYBIND11_COMPILER_TYPE
+-  SET_STR_DEFINE(PYBIND11_COMPILER_TYPE);
+-#else
+-  ASSERT_TRUE(
+-      set_module_attr("_" C10_STRINGIZE(PYBIND11_COMPILER_TYPE), Py_None));
+-#endif
+-
+-#ifdef PYBIND11_STDLIB
+-  SET_STR_DEFINE(PYBIND11_STDLIB);
+-#else
+-  ASSERT_TRUE(set_module_attr("_" C10_STRINGIZE(PYBIND11_STDLIB), Py_None));
+-#endif
+-
+-#ifdef PYBIND11_BUILD_ABI
+-  SET_STR_DEFINE(PYBIND11_BUILD_ABI);
+-#else
+-  ASSERT_TRUE(set_module_attr("_" C10_STRINGIZE(PYBIND11_BUILD_ABI), Py_None));
+-#endif
+-#undef SET_STR_DEFINE
+-
+   py_module.def(
+       "_set_conj", [](const at::Tensor& x, bool conj) { x._set_conj(conj); });
+   py_module.def(
+diff --git a/torch/utils/cpp_extension.py b/torch/utils/cpp_extension.py
+index 46f3b60e156..23a91d13f86 100644
+--- a/torch/utils/cpp_extension.py
++++ b/torch/utils/cpp_extension.py
+@@ -662,15 +662,6 @@ class BuildExtension(build_ext):
+                 # min supported CPython version.
+                 # See https://docs.python.org/3/c-api/stable.html#c.Py_LIMITED_API
+                 self._add_compile_flag(extension, f'-DPy_LIMITED_API={min_supported_cpython}')
+-            else:
+-                # pybind11 is not CPython API stable so don't add these flags used when
+-                # compiling pybind11 when pybind11 is not even used. otherwise, the build
+-                # logs are confusing.
+-                # See note [Pybind11 ABI constants]
+-                for name in ["COMPILER_TYPE", "STDLIB", "BUILD_ABI"]:
+-                    val = getattr(torch._C, f"_PYBIND11_{name}")
+-                    if val is not None and not IS_WINDOWS:
+-                        self._add_compile_flag(extension, f'-DPYBIND11_{name}="{val}"')
+             self._define_torch_extension_name(extension)
+ 
+             if 'nvcc_dlink' in extension.extra_compile_args:
+@@ -1684,24 +1675,7 @@ def load(name,
+         keep_intermediates=keep_intermediates)
+ 
+ def _get_pybind11_abi_build_flags():
+-    # Note [Pybind11 ABI constants]
+-    #
+-    # Pybind11 before 2.4 used to build an ABI strings using the following pattern:
+-    # f"__pybind11_internals_v{PYBIND11_INTERNALS_VERSION}{PYBIND11_INTERNALS_KIND}{PYBIND11_BUILD_TYPE}__"
+-    # Since 2.4 compier type, stdlib and build abi parameters are also encoded like this:
+-    # f"__pybind11_internals_v{PYBIND11_INTERNALS_VERSION}{PYBIND11_INTERNALS_KIND}{PYBIND11_COMPILER_TYPE}{PYBIND11_STDLIB}{PYBIND11_BUILD_ABI}{PYBIND11_BUILD_TYPE}__"
+-    #
+-    # This was done in order to further narrow down the chances of compiler ABI incompatibility
+-    # that can cause a hard to debug segfaults.
+-    # For PyTorch extensions we want to relax those restrictions and pass compiler, stdlib and abi properties
+-    # captured during PyTorch native library compilation in torch/csrc/Module.cpp
+-
+-    abi_cflags = []
+-    for pname in ["COMPILER_TYPE", "STDLIB", "BUILD_ABI"]:
+-        pval = getattr(torch._C, f"_PYBIND11_{pname}")
+-        if pval is not None and not IS_WINDOWS:
+-            abi_cflags.append(f'-DPYBIND11_{pname}=\\"{pval}\\"')
+-    return abi_cflags
++    return []
+ 
+ def check_compiler_is_gcc(compiler):
+     if not IS_LINUX:
+-- 
+2.43.0
+

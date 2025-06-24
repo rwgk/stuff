@@ -1,0 +1,28 @@
+From cca101bf0502afd0455478400c0ee232cb9c99d9 Mon Sep 17 00:00:00 2001
+From: "Ralf W. Grosse-Kunstleve" <rgrossekunst@nvidia.com>
+Date: Fri, 20 Jun 2025 01:29:48 -0700
+Subject: [PATCH 5/5] LOOOK PYBIND11_INTERNALS_H_TAG=NOTDEFINED
+
+---
+ torch/csrc/api/src/python/init.cpp | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/torch/csrc/api/src/python/init.cpp b/torch/csrc/api/src/python/init.cpp
+index 41b01792cf6..cf8d1f73834 100644
+--- a/torch/csrc/api/src/python/init.cpp
++++ b/torch/csrc/api/src/python/init.cpp
+@@ -69,7 +69,11 @@ void init_bindings(PyObject* module) {
+   bind_ordered_dict<std::shared_ptr<nn::Module>>(cpp, "OrderedModuleDict");
+ 
+   py::module nn = cpp.def_submodule("nn");
++#if defined(PYBIND11_INTERNALS_H_TAG)
+   fflush(stderr); printf("\nLOOOK nn::Module PYBIND11_INTERNALS_H_TAG=%s %s:%d\n", PYBIND11_INTERNALS_H_TAG, __FILE__, __LINE__); fflush(stdout);
++#else
++  fflush(stderr); printf("\nLOOOK nn::Module PYBIND11_INTERNALS_H_TAG=NOTDEFINED %s:%d\n", __FILE__, __LINE__); fflush(stdout);
++#endif
+   fflush(stderr); printf("\nLOOOK nn::Module PYBIND11_INTERNALS_ID=%s %s:%d\n", PYBIND11_INTERNALS_ID, __FILE__, __LINE__); fflush(stdout);
+   add_module_bindings(
+       py::class_<nn::Module, std::shared_ptr<nn::Module>>(nn, "Module"));
+-- 
+2.43.0
+

@@ -1,0 +1,8 @@
+git submodule update --init --recursive
+cd third_party/pybind11
+git fetch origin
+git switch master
+git pull
+cd ../..
+git add third_party/pybind11
+git commit -m "Update pybind11 submodule to latest master"
