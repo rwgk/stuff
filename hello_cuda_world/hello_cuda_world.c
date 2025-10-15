@@ -21,13 +21,13 @@ int main(void) {
 
     printf("Number of CUDA devices: %d\n", count);
 
-    // Print name of first device (if available)
-    if (count > 0) {
+    // Print all devices names
+    for (int i = 0; i < count; i++) {
         CUdevice dev;
-        cuDeviceGet(&dev, 0);
+        cuDeviceGet(&dev, i);
         char name[100];
         cuDeviceGetName(name, sizeof(name), dev);
-        printf("Device 0 name: %s\n", name);
+        printf("Device %d name: %s\n", i, name);
     }
 
     return 0;
