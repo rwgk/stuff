@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2500" height="1360">
+<g id="alpha-index-from-list">
+<text x="40.0" y="24" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">A</text>
+<rect x="40.0" y="52" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="65" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">89</text>
+<text x="70.0" y="80.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ac</text>
+<text x="116.0" y="70.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Actinium</text>
+<rect x="40.0" y="98" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="111" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">47</text>
+<text x="70.0" y="126.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ag</text>
+<text x="116.0" y="116.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Silver</text>
+<rect x="40.0" y="144" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="157" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">13</text>
+<text x="70.0" y="172.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Al</text>
+<text x="116.0" y="162.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Aluminium</text>
+<rect x="40.0" y="190" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="203" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">95</text>
+<text x="70.0" y="218.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Am</text>
+<text x="116.0" y="208.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Americium</text>
+<rect x="40.0" y="236" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="249" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">18</text>
+<text x="70.0" y="264.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ar</text>
+<text x="116.0" y="254.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Argon</text>
+<rect x="40.0" y="282" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="295" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">33</text>
+<text x="70.0" y="310.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">As</text>
+<text x="116.0" y="300.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Arsenic</text>
+<rect x="40.0" y="328" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="341" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">85</text>
+<text x="70.0" y="356.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">At</text>
+<text x="116.0" y="346.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Astatine</text>
+<rect x="40.0" y="374" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="387" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">79</text>
+<text x="70.0" y="402.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Au</text>
+<text x="116.0" y="392.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Gold</text>
+<text x="40.0" y="428" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">B</text>
+<rect x="40.0" y="456" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="469" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">5</text>
+<text x="70.0" y="484.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">B</text>
+<text x="116.0" y="474.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Boron</text>
+<rect x="40.0" y="502" width="60" height="36" rx="6" ry="6" style="fill:#fee2e2;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="515" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">56</text>
+<text x="70.0" y="530.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ba</text>
+<text x="116.0" y="520.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Barium</text>
+<rect x="40.0" y="548" width="60" height="36" rx="6" ry="6" style="fill:#fee2e2;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="561" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">4</text>
+<text x="70.0" y="576.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Be</text>
+<text x="116.0" y="566.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Beryllium</text>
+<rect x="40.0" y="594" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="607" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">107</text>
+<text x="70.0" y="622.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Bh</text>
+<text x="116.0" y="612.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Bohrium</text>
+<rect x="40.0" y="640" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="653" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">83</text>
+<text x="70.0" y="668.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Bi</text>
+<text x="116.0" y="658.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Bismuth</text>
+<rect x="40.0" y="686" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="699" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">97</text>
+<text x="70.0" y="714.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Bk</text>
+<text x="116.0" y="704.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Berkelium</text>
+<rect x="40.0" y="732" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="745" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">35</text>
+<text x="70.0" y="760.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Br</text>
+<text x="116.0" y="750.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Bromine</text>
+<text x="40.0" y="786" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">C</text>
+<rect x="40.0" y="814" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="827" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">6</text>
+<text x="70.0" y="842.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">C</text>
+<text x="116.0" y="832.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Carbon</text>
+<rect x="40.0" y="860" width="60" height="36" rx="6" ry="6" style="fill:#fee2e2;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="873" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">20</text>
+<text x="70.0" y="888.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ca</text>
+<text x="116.0" y="878.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Calcium</text>
+<rect x="40.0" y="906" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="919" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">48</text>
+<text x="70.0" y="934.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Cd</text>
+<text x="116.0" y="924.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Cadmium</text>
+<rect x="40.0" y="952" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="965" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">58</text>
+<text x="70.0" y="980.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ce</text>
+<text x="116.0" y="970.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Cerium</text>
+<rect x="40.0" y="998" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="1011" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">98</text>
+<text x="70.0" y="1026.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Cf</text>
+<text x="116.0" y="1016.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Californium</text>
+<rect x="40.0" y="1044" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="1057" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">17</text>
+<text x="70.0" y="1072.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Cl</text>
+<text x="116.0" y="1062.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Chlorine</text>
+<rect x="40.0" y="1090" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="1103" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">96</text>
+<text x="70.0" y="1118.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Cm</text>
+<text x="116.0" y="1108.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Curium</text>
+<rect x="40.0" y="1136" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="1149" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">112</text>
+<text x="70.0" y="1164.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Cn</text>
+<text x="116.0" y="1154.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Copernicium</text>
+<rect x="40.0" y="1182" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="1195" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">27</text>
+<text x="70.0" y="1210.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Co</text>
+<text x="116.0" y="1200.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Cobalt</text>
+<rect x="40.0" y="1228" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="45.0" y="1241" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">24</text>
+<text x="70.0" y="1256.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Cr</text>
+<text x="116.0" y="1246.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Chromium</text>
+<rect x="347.5" y="16" width="60" height="36" rx="6" ry="6" style="fill:#fee2e2;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="29" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">55</text>
+<text x="377.5" y="44.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Cs</text>
+<text x="423.5" y="34.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Cesium</text>
+<rect x="347.5" y="62" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="75" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">29</text>
+<text x="377.5" y="90.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Cu</text>
+<text x="423.5" y="80.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Copper</text>
+<text x="347.5" y="116" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">D</text>
+<rect x="347.5" y="144" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="157" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">105</text>
+<text x="377.5" y="172.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Db</text>
+<text x="423.5" y="162.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Dubnium</text>
+<rect x="347.5" y="190" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="203" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">110</text>
+<text x="377.5" y="218.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ds</text>
+<text x="423.5" y="208.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Darmstadtium</text>
+<rect x="347.5" y="236" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="249" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">66</text>
+<text x="377.5" y="264.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Dy</text>
+<text x="423.5" y="254.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Dysprosium</text>
+<text x="347.5" y="290" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">E</text>
+<rect x="347.5" y="318" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="331" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">68</text>
+<text x="377.5" y="346.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Er</text>
+<text x="423.5" y="336.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Erbium</text>
+<rect x="347.5" y="364" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="377" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">99</text>
+<text x="377.5" y="392.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Es</text>
+<text x="423.5" y="382.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Einsteinium</text>
+<rect x="347.5" y="410" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="423" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">63</text>
+<text x="377.5" y="438.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Eu</text>
+<text x="423.5" y="428.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Europium</text>
+<text x="347.5" y="464" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">F</text>
+<rect x="347.5" y="492" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="505" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">9</text>
+<text x="377.5" y="520.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">F</text>
+<text x="423.5" y="510.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Fluorine</text>
+<rect x="347.5" y="538" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="551" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">26</text>
+<text x="377.5" y="566.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Fe</text>
+<text x="423.5" y="556.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Iron</text>
+<rect x="347.5" y="584" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="597" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">114</text>
+<text x="377.5" y="612.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Fl</text>
+<text x="423.5" y="602.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Flerovium</text>
+<rect x="347.5" y="630" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="643" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">100</text>
+<text x="377.5" y="658.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Fm</text>
+<text x="423.5" y="648.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Fermium</text>
+<rect x="347.5" y="676" width="60" height="36" rx="6" ry="6" style="fill:#fee2e2;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="689" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">87</text>
+<text x="377.5" y="704.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Fr</text>
+<text x="423.5" y="694.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Francium</text>
+<text x="347.5" y="730" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">G</text>
+<rect x="347.5" y="758" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="771" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">31</text>
+<text x="377.5" y="786.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ga</text>
+<text x="423.5" y="776.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Gallium</text>
+<rect x="347.5" y="804" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="817" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">64</text>
+<text x="377.5" y="832.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Gd</text>
+<text x="423.5" y="822.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Gadolinium</text>
+<rect x="347.5" y="850" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="863" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">32</text>
+<text x="377.5" y="878.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ge</text>
+<text x="423.5" y="868.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Germanium</text>
+<text x="347.5" y="904" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">H</text>
+<rect x="347.5" y="932" width="60" height="36" rx="6" ry="6" style="fill:#fee2e2;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="945" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">1</text>
+<text x="377.5" y="960.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">H</text>
+<text x="423.5" y="950.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Hydrogen</text>
+<rect x="347.5" y="978" width="60" height="36" rx="6" ry="6" style="fill:#fee2e2;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="991" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">2</text>
+<text x="377.5" y="1006.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">He</text>
+<text x="423.5" y="996.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Helium</text>
+<rect x="347.5" y="1024" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="1037" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">72</text>
+<text x="377.5" y="1052.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Hf</text>
+<text x="423.5" y="1042.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Hafnium</text>
+<rect x="347.5" y="1070" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="1083" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">80</text>
+<text x="377.5" y="1098.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Hg</text>
+<text x="423.5" y="1088.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Mercury</text>
+<rect x="347.5" y="1116" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="1129" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">67</text>
+<text x="377.5" y="1144.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ho</text>
+<text x="423.5" y="1134.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Holmium</text>
+<rect x="347.5" y="1162" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="1175" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">108</text>
+<text x="377.5" y="1190.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Hs</text>
+<text x="423.5" y="1180.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Hassium</text>
+<text x="347.5" y="1216" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">I</text>
+<rect x="347.5" y="1244" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="352.5" y="1257" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">53</text>
+<text x="377.5" y="1272.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">I</text>
+<text x="423.5" y="1262.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Iodine</text>
+<rect x="655.0" y="16" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="29" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">49</text>
+<text x="685.0" y="44.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">In</text>
+<text x="731.0" y="34.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Indium</text>
+<rect x="655.0" y="62" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="75" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">77</text>
+<text x="685.0" y="90.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ir</text>
+<text x="731.0" y="80.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Iridium</text>
+<text x="655.0" y="116" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">K</text>
+<rect x="655.0" y="144" width="60" height="36" rx="6" ry="6" style="fill:#fee2e2;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="157" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">19</text>
+<text x="685.0" y="172.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">K</text>
+<text x="731.0" y="162.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Potassium</text>
+<rect x="655.0" y="190" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="203" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">36</text>
+<text x="685.0" y="218.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Kr</text>
+<text x="731.0" y="208.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Krypton</text>
+<text x="655.0" y="244" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">L</text>
+<rect x="655.0" y="272" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="285" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">57</text>
+<text x="685.0" y="300.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">La</text>
+<text x="731.0" y="290.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Lanthanum</text>
+<rect x="655.0" y="318" width="60" height="36" rx="6" ry="6" style="fill:#fee2e2;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="331" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">3</text>
+<text x="685.0" y="346.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Li</text>
+<text x="731.0" y="336.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Lithium</text>
+<rect x="655.0" y="364" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="377" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">103</text>
+<text x="685.0" y="392.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Lr</text>
+<text x="731.0" y="382.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Lawrencium</text>
+<rect x="655.0" y="410" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="423" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">71</text>
+<text x="685.0" y="438.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Lu</text>
+<text x="731.0" y="428.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Lutetium</text>
+<rect x="655.0" y="456" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="469" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">116</text>
+<text x="685.0" y="484.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Lv</text>
+<text x="731.0" y="474.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Livermorium</text>
+<text x="655.0" y="510" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">M</text>
+<rect x="655.0" y="538" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="551" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">115</text>
+<text x="685.0" y="566.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Mc</text>
+<text x="731.0" y="556.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Moscovium</text>
+<rect x="655.0" y="584" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="597" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">101</text>
+<text x="685.0" y="612.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Md</text>
+<text x="731.0" y="602.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Mendelevium</text>
+<rect x="655.0" y="630" width="60" height="36" rx="6" ry="6" style="fill:#fee2e2;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="643" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">12</text>
+<text x="685.0" y="658.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Mg</text>
+<text x="731.0" y="648.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Magnesium</text>
+<rect x="655.0" y="676" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="689" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">25</text>
+<text x="685.0" y="704.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Mn</text>
+<text x="731.0" y="694.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Manganese</text>
+<rect x="655.0" y="722" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="735" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">42</text>
+<text x="685.0" y="750.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Mo</text>
+<text x="731.0" y="740.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Molybdenum</text>
+<rect x="655.0" y="768" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="781" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">109</text>
+<text x="685.0" y="796.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Mt</text>
+<text x="731.0" y="786.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Meitnerium</text>
+<text x="655.0" y="822" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">N</text>
+<rect x="655.0" y="850" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="863" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">7</text>
+<text x="685.0" y="878.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">N</text>
+<text x="731.0" y="868.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Nitrogen</text>
+<rect x="655.0" y="896" width="60" height="36" rx="6" ry="6" style="fill:#fee2e2;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="909" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">11</text>
+<text x="685.0" y="924.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Na</text>
+<text x="731.0" y="914.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Sodium</text>
+<rect x="655.0" y="942" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="955" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">41</text>
+<text x="685.0" y="970.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Nb</text>
+<text x="731.0" y="960.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Niobium</text>
+<rect x="655.0" y="988" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="1001" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">60</text>
+<text x="685.0" y="1016.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Nd</text>
+<text x="731.0" y="1006.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Neodymium</text>
+<rect x="655.0" y="1034" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="1047" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">10</text>
+<text x="685.0" y="1062.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ne</text>
+<text x="731.0" y="1052.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Neon</text>
+<rect x="655.0" y="1080" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="1093" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">113</text>
+<text x="685.0" y="1108.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Nh</text>
+<text x="731.0" y="1098.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Nihonium</text>
+<rect x="655.0" y="1126" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="1139" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">28</text>
+<text x="685.0" y="1154.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ni</text>
+<text x="731.0" y="1144.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Nickel</text>
+<rect x="655.0" y="1172" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="1185" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">102</text>
+<text x="685.0" y="1200.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">No</text>
+<text x="731.0" y="1190.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Nobelium</text>
+<rect x="655.0" y="1218" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="660.0" y="1231" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">93</text>
+<text x="685.0" y="1246.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Np</text>
+<text x="731.0" y="1236.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Neptunium</text>
+<text x="962.5" y="24" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">O</text>
+<rect x="962.5" y="52" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="65" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">8</text>
+<text x="992.5" y="80.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">O</text>
+<text x="1038.5" y="70.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Oxygen</text>
+<rect x="962.5" y="98" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="111" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">118</text>
+<text x="992.5" y="126.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Og</text>
+<text x="1038.5" y="116.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Oganesson</text>
+<rect x="962.5" y="144" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="157" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">76</text>
+<text x="992.5" y="172.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Os</text>
+<text x="1038.5" y="162.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Osmium</text>
+<text x="962.5" y="198" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">P</text>
+<rect x="962.5" y="226" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="239" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">15</text>
+<text x="992.5" y="254.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">P</text>
+<text x="1038.5" y="244.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Phosphorus</text>
+<rect x="962.5" y="272" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="285" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">91</text>
+<text x="992.5" y="300.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Pa</text>
+<text x="1038.5" y="290.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Protactinium</text>
+<rect x="962.5" y="318" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="331" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">82</text>
+<text x="992.5" y="346.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Pb</text>
+<text x="1038.5" y="336.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Lead</text>
+<rect x="962.5" y="364" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="377" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">46</text>
+<text x="992.5" y="392.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Pd</text>
+<text x="1038.5" y="382.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Palladium</text>
+<rect x="962.5" y="410" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="423" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">61</text>
+<text x="992.5" y="438.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Pm</text>
+<text x="1038.5" y="428.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Promethium</text>
+<rect x="962.5" y="456" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="469" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">84</text>
+<text x="992.5" y="484.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Po</text>
+<text x="1038.5" y="474.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Polonium</text>
+<rect x="962.5" y="502" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="515" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">59</text>
+<text x="992.5" y="530.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Pr</text>
+<text x="1038.5" y="520.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Praseodymium</text>
+<rect x="962.5" y="548" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="561" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">78</text>
+<text x="992.5" y="576.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Pt</text>
+<text x="1038.5" y="566.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Platinum</text>
+<rect x="962.5" y="594" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="607" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">94</text>
+<text x="992.5" y="622.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Pu</text>
+<text x="1038.5" y="612.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Plutonium</text>
+<text x="962.5" y="648" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">R</text>
+<rect x="962.5" y="676" width="60" height="36" rx="6" ry="6" style="fill:#fee2e2;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="689" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">88</text>
+<text x="992.5" y="704.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ra</text>
+<text x="1038.5" y="694.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Radium</text>
+<rect x="962.5" y="722" width="60" height="36" rx="6" ry="6" style="fill:#fee2e2;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="735" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">37</text>
+<text x="992.5" y="750.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Rb</text>
+<text x="1038.5" y="740.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Rubidium</text>
+<rect x="962.5" y="768" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="781" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">75</text>
+<text x="992.5" y="796.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Re</text>
+<text x="1038.5" y="786.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Rhenium</text>
+<rect x="962.5" y="814" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="827" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">104</text>
+<text x="992.5" y="842.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Rf</text>
+<text x="1038.5" y="832.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Rutherfordium</text>
+<rect x="962.5" y="860" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="873" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">111</text>
+<text x="992.5" y="888.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Rg</text>
+<text x="1038.5" y="878.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Roentgenium</text>
+<rect x="962.5" y="906" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="919" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">45</text>
+<text x="992.5" y="934.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Rh</text>
+<text x="1038.5" y="924.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Rhodium</text>
+<rect x="962.5" y="952" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="965" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">86</text>
+<text x="992.5" y="980.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Rn</text>
+<text x="1038.5" y="970.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Radon</text>
+<rect x="962.5" y="998" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="1011" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">44</text>
+<text x="992.5" y="1026.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ru</text>
+<text x="1038.5" y="1016.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ruthenium</text>
+<text x="962.5" y="1052" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">S</text>
+<rect x="962.5" y="1080" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="1093" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">16</text>
+<text x="992.5" y="1108.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">S</text>
+<text x="1038.5" y="1098.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Sulfur</text>
+<rect x="962.5" y="1126" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="1139" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">51</text>
+<text x="992.5" y="1154.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Sb</text>
+<text x="1038.5" y="1144.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Antimony</text>
+<rect x="962.5" y="1172" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="1185" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">21</text>
+<text x="992.5" y="1200.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Sc</text>
+<text x="1038.5" y="1190.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Scandium</text>
+<rect x="962.5" y="1218" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="967.5" y="1231" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">34</text>
+<text x="992.5" y="1246.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Se</text>
+<text x="1038.5" y="1236.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Selenium</text>
+<rect x="1270.0" y="16" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="29" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">106</text>
+<text x="1300.0" y="44.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Sg</text>
+<text x="1346.0" y="34.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Seaborgium</text>
+<rect x="1270.0" y="62" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="75" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">14</text>
+<text x="1300.0" y="90.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Si</text>
+<text x="1346.0" y="80.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Silicon</text>
+<rect x="1270.0" y="108" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="121" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">62</text>
+<text x="1300.0" y="136.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Sm</text>
+<text x="1346.0" y="126.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Samarium</text>
+<rect x="1270.0" y="154" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="167" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">50</text>
+<text x="1300.0" y="182.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Sn</text>
+<text x="1346.0" y="172.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Tin</text>
+<rect x="1270.0" y="200" width="60" height="36" rx="6" ry="6" style="fill:#fee2e2;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="213" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">38</text>
+<text x="1300.0" y="228.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Sr</text>
+<text x="1346.0" y="218.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Strontium</text>
+<text x="1270.0" y="254" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">T</text>
+<rect x="1270.0" y="282" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="295" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">73</text>
+<text x="1300.0" y="310.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ta</text>
+<text x="1346.0" y="300.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Tantalum</text>
+<rect x="1270.0" y="328" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="341" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">65</text>
+<text x="1300.0" y="356.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Tb</text>
+<text x="1346.0" y="346.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Terbium</text>
+<rect x="1270.0" y="374" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="387" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">43</text>
+<text x="1300.0" y="402.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Tc</text>
+<text x="1346.0" y="392.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Technetium</text>
+<rect x="1270.0" y="420" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="433" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">52</text>
+<text x="1300.0" y="448.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Te</text>
+<text x="1346.0" y="438.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Tellurium</text>
+<rect x="1270.0" y="466" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="479" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">90</text>
+<text x="1300.0" y="494.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Th</text>
+<text x="1346.0" y="484.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Thorium</text>
+<rect x="1270.0" y="512" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="525" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">22</text>
+<text x="1300.0" y="540.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ti</text>
+<text x="1346.0" y="530.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Titanium</text>
+<rect x="1270.0" y="558" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="571" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">81</text>
+<text x="1300.0" y="586.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Tl</text>
+<text x="1346.0" y="576.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Thallium</text>
+<rect x="1270.0" y="604" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="617" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">69</text>
+<text x="1300.0" y="632.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Tm</text>
+<text x="1346.0" y="622.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Thulium</text>
+<rect x="1270.0" y="650" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="663" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">117</text>
+<text x="1300.0" y="678.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ts</text>
+<text x="1346.0" y="668.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Tennessine</text>
+<text x="1270.0" y="704" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">U</text>
+<rect x="1270.0" y="732" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="745" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">92</text>
+<text x="1300.0" y="760.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">U</text>
+<text x="1346.0" y="750.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Uranium</text>
+<text x="1270.0" y="786" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">V</text>
+<rect x="1270.0" y="814" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="827" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">23</text>
+<text x="1300.0" y="842.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">V</text>
+<text x="1346.0" y="832.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Vanadium</text>
+<text x="1270.0" y="868" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">W</text>
+<rect x="1270.0" y="896" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="909" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">74</text>
+<text x="1300.0" y="924.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">W</text>
+<text x="1346.0" y="914.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Tungsten</text>
+<text x="1270.0" y="950" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">X</text>
+<rect x="1270.0" y="978" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="991" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">54</text>
+<text x="1300.0" y="1006.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Xe</text>
+<text x="1346.0" y="996.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Xenon</text>
+<text x="1270.0" y="1032" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">Y</text>
+<rect x="1270.0" y="1060" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="1073" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">39</text>
+<text x="1300.0" y="1088.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Y</text>
+<text x="1346.0" y="1078.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Yttrium</text>
+<rect x="1270.0" y="1106" width="60" height="36" rx="6" ry="6" style="fill:#f3e8ff;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="1119" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">70</text>
+<text x="1300.0" y="1134.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Yb</text>
+<text x="1346.0" y="1124.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ytterbium</text>
+<text x="1270.0" y="1160" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">Z</text>
+<rect x="1270.0" y="1188" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="1201" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">30</text>
+<text x="1300.0" y="1216.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Zn</text>
+<text x="1346.0" y="1206.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Zinc</text>
+<rect x="1270.0" y="1234" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="1275.0" y="1247" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">40</text>
+<text x="1300.0" y="1262.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Zr</text>
+<text x="1346.0" y="1252.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Zirconium</text>
+<text x="1577.5" y="24" dominant-baseline="hanging" style="font:26px Inter, Arial, Helvetica, sans-serif;font-weight:700;fill:#111;">Sorted by name</text>
+<rect x="1577.5" y="52" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="1582.5" y="65" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">51</text>
+<text x="1607.5" y="80.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Sb</text>
+<text x="1653.5" y="70.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Antimony</text>
+<rect x="1577.5" y="98" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="1582.5" y="111" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">79</text>
+<text x="1607.5" y="126.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Au</text>
+<text x="1653.5" y="116.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Gold</text>
+<rect x="1577.5" y="144" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="1582.5" y="157" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">26</text>
+<text x="1607.5" y="172.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Fe</text>
+<text x="1653.5" y="162.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Iron</text>
+<rect x="1577.5" y="190" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="1582.5" y="203" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">82</text>
+<text x="1607.5" y="218.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Pb</text>
+<text x="1653.5" y="208.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Lead</text>
+<rect x="1577.5" y="236" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="1582.5" y="249" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">80</text>
+<text x="1607.5" y="264.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Hg</text>
+<text x="1653.5" y="254.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Mercury</text>
+<rect x="1577.5" y="282" width="60" height="36" rx="6" ry="6" style="fill:#fee2e2;stroke:#222;stroke-width:1.0;" />
+<text x="1582.5" y="295" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">19</text>
+<text x="1607.5" y="310.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">K</text>
+<text x="1653.5" y="300.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Potassium</text>
+<rect x="1577.5" y="328" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="1582.5" y="341" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">47</text>
+<text x="1607.5" y="356.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Ag</text>
+<text x="1653.5" y="346.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Silver</text>
+<rect x="1577.5" y="374" width="60" height="36" rx="6" ry="6" style="fill:#fee2e2;stroke:#222;stroke-width:1.0;" />
+<text x="1582.5" y="387" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">11</text>
+<text x="1607.5" y="402.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Na</text>
+<text x="1653.5" y="392.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Sodium</text>
+<rect x="1577.5" y="420" width="60" height="36" rx="6" ry="6" style="fill:#dcfce7;stroke:#222;stroke-width:1.0;" />
+<text x="1582.5" y="433" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">50</text>
+<text x="1607.5" y="448.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Sn</text>
+<text x="1653.5" y="438.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Tin</text>
+<rect x="1577.5" y="466" width="60" height="36" rx="6" ry="6" style="fill:#e0f2fe;stroke:#222;stroke-width:1.0;" />
+<text x="1582.5" y="479" style="font:12px Inter, Arial, Helvetica, sans-serif;fill:#111;">74</text>
+<text x="1607.5" y="494.08" text-anchor="middle" style="font:16px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">W</text>
+<text x="1653.5" y="484.0" dominant-baseline="middle" style="font:22px Inter, Arial, Helvetica, sans-serif;font-weight:600;fill:#111;">Tungsten</text>
+</g>
+</svg>
