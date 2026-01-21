@@ -3,7 +3,7 @@
 objects = datum.o datesub.o
 
 CC = cc
-CCFLAGS = -xansi -fullwarn -wlint -woff 822,826,827,852
+CCFLAGS =
 
 datum: $(objects)
 	$(CC) $(CCFLAGS) -o datum $(objects)
